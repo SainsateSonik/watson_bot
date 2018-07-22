@@ -1,0 +1,23 @@
+.conversationBlock {
+    float: left;
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+
+.interationInput {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px dotted #ddd;
+}
+
+input {
+    width: 90%;
+    margin: 20px 5%;
+    font-size: 18px;
+    color: #555;
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}

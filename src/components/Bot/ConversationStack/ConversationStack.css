@@ -1,0 +1,40 @@
+.chatStack {
+    height: calc(100vh - 77px);
+}
+
+/* .chatHead {
+    height: 98px;
+} */
+ul {
+    list-style-type: none;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+li {
+    padding: 10px 0;
+}
+
+.user_dialogue, .watson_dialogue {
+    margin: 5px 15px;
+    /* width: 50%; */
+    color: white;
+    clear: both;
+    padding: 5px 10px;
+    border-radius: 8px;
+    max-width: 60%;
+}
+
+.user_dialogue {
+    float: right;
+    background-color: #2f55af;
+    border-top-right-radius: 0;
+}
+
+.watson_dialogue { 
+    float: left;
+    background-color: #05477e;
+    border-top-left-radius: 0;
+}
